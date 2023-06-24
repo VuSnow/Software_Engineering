@@ -3,7 +3,11 @@ import CartItem from "./CartItem/CartItem";
 import { MdClose } from "react-icons/md";
 import { AppProps } from "next/app";
 
-const Cart = ({ setShowCart }: Boolean) => {
+interface CartProps {
+  setShowCart: (value: boolean) => void;
+}
+
+const Cart = ({ setShowCart }: CartProps) => {
   return (
     <div
       className={`cart-panel fixed top-0 left-0 w-full h-full flex justify-end z-[99]`}

@@ -14,7 +14,7 @@ const Header = () => {
   const [classNav, setClassNav] = useState<String>(
     "opacity-0 invisible -left-full"
   );
-  const [showCart, setShowCart] = useState<Boolean>(false);
+  const [showCart, setShowCart] = useState(false);
   const showNav = () => {
     setClassNav("opacity-1 visible left-0");
   };
