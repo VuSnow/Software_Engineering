@@ -35,7 +35,7 @@ const Footer = () => {
                 Đóng góp ý kiến
               </Link>
             </div>
-            <div className=" flex justify-between w-full flex-[2] items-center max-tablet:flex-col max-tablet:items-start max-tablet:gap-6 max-tablet:mb-8 gap-10">
+            <div className=" flex justify-between w-full flex-[2] items-center max-tablet:flex-col max-tablet:items-start">
               <div className="flex-[1]">
                 <div className="hotline flex gap-8 items-center w-fit font-medium text-[13px] leading-[160%] tracking-wide mb-3 justify-start">
                   <div className="icon h-8 w-8">
@@ -65,7 +65,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="social mt-0 h-[130px] flex justify-end items-center flex-[1]">
+              <div className="social mt-0 pr-10 h-[130px] flex justify-end items-center flex-[2]">
                 <Link
                   href="https://www.facebook.com/dung.vuminh.315080/"
                   className="flex justify-center items-center"
@@ -73,7 +73,7 @@ const Footer = () => {
                   <Image
                     src={facebookIcon}
                     alt=""
-                    className=" max-h-[100px] w-full pr-10"
+                    className=" h-12 w-full pr-10"
                   />
                 </Link>
                 <Link
@@ -83,18 +83,14 @@ const Footer = () => {
                   <Image
                     src={instaIcon}
                     alt=""
-                    className=" max-h-[100px] w-full pr-10"
+                    className=" h-12 w-full pr-10"
                   />
                 </Link>
                 <Link
                   href="https://zalo.me/0366032936"
                   className="flex justify-center items-center"
                 >
-                  <Image
-                    src={zaloIcon}
-                    alt=""
-                    className=" max-h-[100px] w-full pr-10"
-                  />
+                  <Image src={zaloIcon} alt="" className=" h-12 w-full pr-10" />
                 </Link>
                 <Link
                   href="https://www.instagram.com/v.m.dung.36/"
@@ -103,7 +99,7 @@ const Footer = () => {
                   <Image
                     src={tiktokIcon}
                     alt=""
-                    className=" max-h-[100px] w-full pr-10"
+                    className=" h-12 w-full pr-10"
                   />
                 </Link>
                 <Link
@@ -113,7 +109,7 @@ const Footer = () => {
                   <Image
                     src={youtubeIcon}
                     alt=""
-                    className=" max-h-[100px] w-full pr-10"
+                    className=" h-12 w-full pr-10"
                   />
                 </Link>
               </div>
@@ -122,8 +118,8 @@ const Footer = () => {
           <div className="top-menu"></div>
         </div>
         <div className="footer-bottom">
-          <div className="footer-menu flex justify-between flex-wrap gap-10">
-            <div className="footer-item flex-[1] text-[13px] leading-[200%] text-[d9d9d9] min-w-[200px] mb-10">
+          <div className="footer-menu flex justify-between">
+            <div className="footer-item flex-[1] text-[13px] leading-[200%] text-[d9d9d9]">
               <h4 className="text-[#fff] font-semibold mb-4 mt-0 text-base">
                 Member
               </h4>
@@ -132,7 +128,7 @@ const Footer = () => {
                 <li>Ưu đãi & dặc quyền</li>
               </ul>
             </div>
-            <div className="footer-item flex-[1] text-[13px] leading-[200%] text-[d9d9d9] min-w-[200px] mb-10">
+            <div className="footer-item flex-[1] text-[13px] leading-[200%] text-[d9d9d9]">
               <h4 className="text-[#fff] font-semibold mb-4 mt-0 text-base">
                 Chính sách
               </h4>
@@ -143,7 +139,7 @@ const Footer = () => {
                 <li>Chính sách giao hàng</li>
               </ul>
             </div>
-            <div className="footer-item flex-[1] text-[13px] leading-[200%] text-[d9d9d9] min-w-[200px] mb-10">
+            <div className="footer-item flex-[1] text-[13px] leading-[200%] text-[d9d9d9]">
               <h4 className="text-[#fff] font-semibold mb-4 mt-0 text-base">
                 Chăm sóc khách hàng
               </h4>
@@ -160,7 +156,7 @@ const Footer = () => {
                 <li>Group mặc đẹp sống chất</li>
               </ul>
             </div>
-            <div className="footer-item flex-[1] text-[13px] leading-[200%] text-[d9d9d9] min-w-[200px] mb-10">
+            <div className="footer-item flex-[1] text-[13px] leading-[200%] text-[d9d9d9]">
               <h4 className="text-[#fff] font-semibold mb-4 mt-0 text-base">
                 Tài liệu - Tuyển dụng
               </h4>
@@ -172,7 +168,7 @@ const Footer = () => {
                 Về Fashion Store
               </h4>
             </div>
-            <div className="footer-item flex-[1] text-[13px] leading-[200%] text-[d9d9d9] min-w-[200px] mb-10">
+            <div className="footer-item flex-[1] text-[13px] leading-[200%] text-[d9d9d9]">
               <h4 className="text-[#fff] font-semibold mb-4 mt-0 text-base">
                 Địa chỉ liên hệ
               </h4>

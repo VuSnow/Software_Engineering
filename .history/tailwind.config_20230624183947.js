@@ -17,7 +17,6 @@ module.exports = {
       "max-tablet": { max: "992px" },
       "small-desktop": { min: "1024px", max: "1200px" },
       "big-desktop": { min: "1200px" },
-      desktop: { max: "1200px" },
       md: { min: "768px" },
     },
     extend: {

@@ -249,7 +249,6 @@ const NewProducts = () => {
                           {product.info.map((info, index) =>
                             info.cartOpen ? (
                               <ul
-                                key={index}
                                 className={`list-size absolute bottom-[32px] right-0 bg-white border border-solid border-[#e7e8e9] ${
                                   info.cartOpen
                                     ? "opacity-100 visible"

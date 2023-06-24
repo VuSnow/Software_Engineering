@@ -122,8 +122,8 @@ const Footer = () => {
           <div className="top-menu"></div>
         </div>
         <div className="footer-bottom">
-          <div className="footer-menu flex justify-between flex-wrap gap-10">
-            <div className="footer-item flex-[1] text-[13px] leading-[200%] text-[d9d9d9] min-w-[200px] mb-10">
+          <div className="footer-menu flex justify-between">
+            <div className="footer-item flex-[1] text-[13px] leading-[200%] text-[d9d9d9]">
               <h4 className="text-[#fff] font-semibold mb-4 mt-0 text-base">
                 Member
               </h4>
@@ -132,7 +132,7 @@ const Footer = () => {
                 <li>Ưu đãi & dặc quyền</li>
               </ul>
             </div>
-            <div className="footer-item flex-[1] text-[13px] leading-[200%] text-[d9d9d9] min-w-[200px] mb-10">
+            <div className="footer-item flex-[1] text-[13px] leading-[200%] text-[d9d9d9]">
               <h4 className="text-[#fff] font-semibold mb-4 mt-0 text-base">
                 Chính sách
               </h4>
@@ -143,7 +143,7 @@ const Footer = () => {
                 <li>Chính sách giao hàng</li>
               </ul>
             </div>
-            <div className="footer-item flex-[1] text-[13px] leading-[200%] text-[d9d9d9] min-w-[200px] mb-10">
+            <div className="footer-item flex-[1] text-[13px] leading-[200%] text-[d9d9d9]">
               <h4 className="text-[#fff] font-semibold mb-4 mt-0 text-base">
                 Chăm sóc khách hàng
               </h4>
@@ -160,7 +160,7 @@ const Footer = () => {
                 <li>Group mặc đẹp sống chất</li>
               </ul>
             </div>
-            <div className="footer-item flex-[1] text-[13px] leading-[200%] text-[d9d9d9] min-w-[200px] mb-10">
+            <div className="footer-item flex-[1] text-[13px] leading-[200%] text-[d9d9d9]">
               <h4 className="text-[#fff] font-semibold mb-4 mt-0 text-base">
                 Tài liệu - Tuyển dụng
               </h4>
@@ -172,7 +172,7 @@ const Footer = () => {
                 Về Fashion Store
               </h4>
             </div>
-            <div className="footer-item flex-[1] text-[13px] leading-[200%] text-[d9d9d9] min-w-[200px] mb-10">
+            <div className="footer-item flex-[1] text-[13px] leading-[200%] text-[d9d9d9]">
               <h4 className="text-[#fff] font-semibold mb-4 mt-0 text-base">
                 Địa chỉ liên hệ
               </h4>

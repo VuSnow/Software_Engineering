@@ -122,7 +122,7 @@ const Footer = () => {
           <div className="top-menu"></div>
         </div>
         <div className="footer-bottom">
-          <div className="footer-menu flex justify-between flex-wrap gap-10">
+          <div className="footer-menu flex justify-between flex-wrap">
             <div className="footer-item flex-[1] text-[13px] leading-[200%] text-[d9d9d9] min-w-[200px] mb-10">
               <h4 className="text-[#fff] font-semibold mb-4 mt-0 text-base">
                 Member
