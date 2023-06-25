@@ -80,8 +80,8 @@ const NewProducts = () => {
     },
   };
   return (
-    <section className="new-products px-[5%] mb-20 mt-10">
-      <div className="title mt-10 text-[46px] font-bold uppercase pr-10">
+    <section className="new-products pl-[5%] pr-[5%] mb-20">
+      <div className="title mt-10 text-[30px] font-semibold uppercase pr-10">
         <span className="">New Products</span>
       </div>
       <div className="exclusive-tabs mb-10">

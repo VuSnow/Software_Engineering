@@ -170,7 +170,7 @@ const Products = () => {
                   <div className="info-prod">
                     <div className="list-color flex justify-between mb-3">
                       <ul
-                        className="flex gap-[5px] w-full"
+                        className="flex gap-[5px]"
                         onClick={(e) => e.preventDefault()}
                       >
                         {product.info.map((color, colorIndex) => (

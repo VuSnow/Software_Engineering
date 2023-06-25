@@ -80,8 +80,8 @@ const NewProducts = () => {
     },
   };
   return (
-    <section className="new-products px-[5%] mb-20 mt-10">
-      <div className="title mt-10 text-[46px] font-bold uppercase pr-10">
+    <section className="new-products pl-[5%] pr-[5%] mb-20">
+      <div className="title mt-10 text-[30px] font-semibold uppercase pr-10">
         <span className="">New Products</span>
       </div>
       <div className="exclusive-tabs mb-10">
@@ -182,10 +182,7 @@ const NewProducts = () => {
                           </div>
                           <div className="info-prod">
                             <div className="list-color flex justify-between mb-3">
-                              <ul
-                                className="flex gap-[5px] w-full"
-                                onClick={(e) => e.preventDefault()}
-                              >
+                              <ul className="flex gap-[5px]">
                                 {product.info.map((color, colorIndex) => (
                                   <li
                                     key={color.id}
@@ -244,10 +241,7 @@ const NewProducts = () => {
                           </div>
                           <div
                             className="add-to-cart"
-                            onClick={(e) => {
-                              e.preventDefault();
-                              openSizeList(productIndex);
-                            }}
+                            onClick={() => openSizeList(productIndex)}
                           >
                             <div
                               //   ref="#"
@@ -271,9 +265,6 @@ const NewProducts = () => {
                                     <li
                                       className=" w-[150px] text-center py-4 font-semibold cursor-pointer"
                                       key={size.id}
-                                      onClick={(e) => {
-                                        e.preventDefault();
-                                      }}
                                     >
                                       <button>{size.sizeName}</button>
                                     </li>
@@ -281,9 +272,6 @@ const NewProducts = () => {
                                     <li
                                       className=" w-[150px] text-center py-4 font-semibold opacity-30 cursor-pointer"
                                       key={size.id}
-                                      onClick={(e) => {
-                                        e.preventDefault();
-                                      }}
                                     >
                                       <button>{size.sizeName}</button>
                                     </li>

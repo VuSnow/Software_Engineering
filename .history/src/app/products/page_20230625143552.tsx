@@ -112,11 +112,7 @@ const Products = () => {
                 className="item-product max-mobile:w-1/2 w-1/4 p-2"
                 key={productIndex}
               >
-                <a
-                  key={product.id}
-                  className="product relative"
-                  href={`singleProduct/${product.id}`}
-                >
+                <div key={product.id} className="product relative">
                   {product.salePercentage !== 0 && (
                     <div className="sale-percentage absolute top-[10px] right-[10px] z-50 bg-red-600 h-11 w-11 flex justify-center items-center rounded-t-full rounded-bl-full text-base font-semibold text-white">
                       {product.salePercentage}
@@ -169,10 +165,7 @@ const Products = () => {
                   </div>
                   <div className="info-prod">
                     <div className="list-color flex justify-between mb-3">
-                      <ul
-                        className="flex gap-[5px] w-full"
-                        onClick={(e) => e.preventDefault()}
-                      >
+                      <ul className="flex gap-[5px]">
                         {product.info.map((color, colorIndex) => (
                           <li
                             key={color.id}
@@ -180,10 +173,9 @@ const Products = () => {
                               backgroundColor: `${color.colorCode}`,
                             }}
                             className={`h-[18px] w-[18px] rounded-full cursor-pointer flex justify-center items-center`}
-                            onClick={(e) => {
-                              e.preventDefault();
-                              changeImage(colorIndex, productIndex);
-                            }}
+                            onClick={() =>
+                              changeImage(colorIndex, productIndex)
+                            }
                           ></li>
                         ))}
 
@@ -232,10 +224,7 @@ const Products = () => {
                   </div>
                   <div
                     className="add-to-cart"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      openSizeList(productIndex);
-                    }}
+                    onClick={() => openSizeList(productIndex)}
                   >
                     <div
                       //   ref="#"
@@ -274,7 +263,7 @@ const Products = () => {
                       </ul>
                     ) : null
                   )}
-                </a>
+                </div>
               </div>
             ))}
           </div>

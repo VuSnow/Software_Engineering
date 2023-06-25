@@ -89,7 +89,6 @@ const Footer = () => {
                 <Link
                   href="https://www.instagram.com/v.m.dung.36/"
                   className="flex justify-center items-center"
-                  target="_blank"
                 >
                   <Image
                     src={instaIcon}
@@ -100,7 +99,6 @@ const Footer = () => {
                 <Link
                   href="https://zalo.me/0366032936"
                   className="flex justify-center items-center"
-                  target="_blank"
                 >
                   <Image
                     src={zaloIcon}
@@ -111,7 +109,6 @@ const Footer = () => {
                 <Link
                   href="https://www.instagram.com/v.m.dung.36/"
                   className="flex justify-center items-center"
-                  target="_blank"
                 >
                   <Image
                     src={tiktokIcon}
@@ -122,7 +119,6 @@ const Footer = () => {
                 <Link
                   href="https://www.instagram.com/v.m.dung.36/"
                   className="flex justify-center items-center"
-                  target="_blank"
                 >
                   <Image
                     src={youtubeIcon}
