@@ -65,7 +65,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="social mt-0 h-[130px] flex justify-end items-center flex-[1] gap-10">
+              <div className="social mt-0 h-[130px] flex justify-end items-center flex-[1]">
                 <Link
                   href="https://www.facebook.com/dung.vuminh.315080/"
                   className="flex justify-center items-center"
@@ -73,7 +73,7 @@ const Footer = () => {
                   <Image
                     src={facebookIcon}
                     alt=""
-                    className=" max-h-[100px] w-full min-h-[50px]"
+                    className=" max-h-[100px] w-full pr-10 min-h-[50px]"
                   />
                 </Link>
                 <Link
@@ -83,7 +83,7 @@ const Footer = () => {
                   <Image
                     src={instaIcon}
                     alt=""
-                    className=" max-h-[100px] w-full min-h-[50px]"
+                    className=" max-h-[100px] w-full pr-10 min-h-[50px]"
                   />
                 </Link>
                 <Link
@@ -93,7 +93,7 @@ const Footer = () => {
                   <Image
                     src={zaloIcon}
                     alt=""
-                    className=" max-h-[100px] w-full min-h-[50px]"
+                    className=" max-h-[100px] w-full pr-10 min-h-[50px]"
                   />
                 </Link>
                 <Link
@@ -103,7 +103,7 @@ const Footer = () => {
                   <Image
                     src={tiktokIcon}
                     alt=""
-                    className=" max-h-[100px] w-full min-h-[50px]"
+                    className=" max-h-[100px] w-full pr-10 min-h-[50px]"
                   />
                 </Link>
                 <Link
@@ -113,7 +113,7 @@ const Footer = () => {
                   <Image
                     src={youtubeIcon}
                     alt=""
-                    className=" max-h-[100px] w-full min-h-[50px]"
+                    className=" max-h-[100px] w-full pr-10 min-h-[50px]"
                   />
                 </Link>
               </div>

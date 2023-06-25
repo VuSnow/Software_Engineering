@@ -65,10 +65,10 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="social mt-0 h-[130px] flex justify-end items-center flex-[1] gap-10">
+              <div className="social mt-0 h-[130px] flex justify-end items-center flex-[1]">
                 <Link
                   href="https://www.facebook.com/dung.vuminh.315080/"
-                  className="flex justify-center items-center"
+                  className="flex justify-center items-center gap-10"
                 >
                   <Image
                     src={facebookIcon}
