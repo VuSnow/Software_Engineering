@@ -15,9 +15,8 @@ import HomepageService from "../HomepageService/HomepageService";
 
 const Footer = () => {
   return (
-    <footer className="text-white flex justify-center items-center bg-black px-[5%] leading-[160%] mt-8">
+    <footer className="text-white flex justify-center items-center bg-black py-[30px] px-[5%] leading-[160%] mt-8">
       <div className="container-footer w-full">
-        <HomepageService />
         <div className="footer-top text-sm">
           <div className="top-sidebar flex justify-between items-center gap-[8%] mb-8 w-full border-b border-[#d9d9d942] desktop:flex-col desktop:items-start">
             <div className="flex-[1]">
@@ -203,6 +202,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <HomepageService />
       </div>
     </footer>
   );

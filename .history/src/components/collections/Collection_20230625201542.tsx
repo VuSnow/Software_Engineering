@@ -10,7 +10,7 @@ const Collection = () => {
   return (
     <section className="homepage-collection px-[5%]">
       <div className="collection-container">
-        <div className="collection-wrapper flex gap-8 max-tablet:flex-wrap justify-center">
+        <div className="collection-wrapper flex gap-8 flex-wrap">
           <div className="collection-item tablet:w-[45%] mobile:w-[80%]">
             <Link href="/">
               <div className="img-container">

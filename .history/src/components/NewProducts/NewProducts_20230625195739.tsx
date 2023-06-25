@@ -81,7 +81,7 @@ const NewProducts = () => {
   };
   return (
     <section className="new-products px-[5%] my-10">
-      <div className="title mt-10 text-[46px] font-bold uppercase pr-10 mobile:text-[30px]">
+      <div className="title mt-10 text-[46px] font-bold uppercase pr-10">
         <span className="">New Products</span>
       </div>
       <div className="exclusive-tabs mb-10">

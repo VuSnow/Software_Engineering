@@ -20,6 +20,7 @@ export default function Home() {
       <HomepageSearch />
       <Collection />
       <NewProducts />
+      <HomepageService />
     </>
   );
 }

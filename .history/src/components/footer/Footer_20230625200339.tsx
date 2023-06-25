@@ -15,7 +15,7 @@ import HomepageService from "../HomepageService/HomepageService";
 
 const Footer = () => {
   return (
-    <footer className="text-white flex justify-center items-center bg-black px-[5%] leading-[160%] mt-8">
+    <footer className="text-white flex justify-center items-center bg-black py-[30px] px-[5%] leading-[160%] mt-8">
       <div className="container-footer w-full">
         <HomepageService />
         <div className="footer-top text-sm">
