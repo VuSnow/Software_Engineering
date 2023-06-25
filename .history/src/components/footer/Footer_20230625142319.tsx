@@ -26,7 +26,6 @@ const Footer = () => {
                   background: "linear-gradient(to bottom, #194c33, #bbb)",
                   WebkitBackgroundClip: "text",
                   WebkitTextFillColor: "transparent",
-                  textTransform: "uppercase",
                 }}
               >
                 Fashion Store

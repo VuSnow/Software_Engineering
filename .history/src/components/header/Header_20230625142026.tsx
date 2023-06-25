@@ -91,14 +91,13 @@ const Header = () => {
           </nav>
           <div className="logo-brand">
             <a
-              href="/"
+              href="#"
               className="font-bold font-kumbhsan"
               style={{
                 fontSize: "50px",
                 background: "linear-gradient(to bottom, #194c33, #bbb)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
-                textTransform: "uppercase",
               }}
             >
               Fashion

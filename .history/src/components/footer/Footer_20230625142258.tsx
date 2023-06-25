@@ -20,13 +20,12 @@ const Footer = () => {
           <div className="top-sidebar flex justify-between items-center gap-[8%] mb-8 w-full border-b border-[#d9d9d942] desktop:flex-col desktop:items-start">
             <div className="flex-[1]">
               <h4
-                className=" font-semibold text-[22px] mb-2 text-[#fff] leading-[100%]"
+                className=" font-semibold text-[22px] mb-2 text-[#fff] leading-7"
                 style={{
                   fontSize: "50px",
                   background: "linear-gradient(to bottom, #194c33, #bbb)",
                   WebkitBackgroundClip: "text",
                   WebkitTextFillColor: "transparent",
-                  textTransform: "uppercase",
                 }}
               >
                 Fashion Store

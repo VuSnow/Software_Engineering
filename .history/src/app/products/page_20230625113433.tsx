@@ -112,11 +112,7 @@ const Products = () => {
                 className="item-product max-mobile:w-1/2 w-1/4 p-2"
                 key={productIndex}
               >
-                <a
-                  key={product.id}
-                  className="product relative"
-                  href={`products/${product.id}`}
-                >
+                <div className="product relative">
                   {product.salePercentage !== 0 && (
                     <div className="sale-percentage absolute top-[10px] right-[10px] z-50 bg-red-600 h-11 w-11 flex justify-center items-center rounded-t-full rounded-bl-full text-base font-semibold text-white">
                       {product.salePercentage}
@@ -267,7 +263,7 @@ const Products = () => {
                       </ul>
                     ) : null
                   )}
-                </a>
+                </div>
               </div>
             ))}
           </div>

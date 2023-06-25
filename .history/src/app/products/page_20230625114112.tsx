@@ -112,7 +112,7 @@ const Products = () => {
                 className="item-product max-mobile:w-1/2 w-1/4 p-2"
                 key={productIndex}
               >
-                <a
+                <Link
                   key={product.id}
                   className="product relative"
                   href={`products/${product.id}`}
@@ -267,7 +267,7 @@ const Products = () => {
                       </ul>
                     ) : null
                   )}
-                </a>
+                </Link>
               </div>
             ))}
           </div>

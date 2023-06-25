@@ -91,7 +91,7 @@ const Header = () => {
           </nav>
           <div className="logo-brand">
             <a
-              href="/"
+              href="#"
               className="font-bold font-kumbhsan"
               style={{
                 fontSize: "50px",

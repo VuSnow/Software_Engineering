@@ -56,50 +56,50 @@ const Products = () => {
           <div className="tab-header flex mb-5 flex-wrap max-tablet:justify-center gap-y-[10px]">
             <Link
               href="#"
-              className="w-[100px] h-12 bg-[#ccc] flex items-center justify-center flex-col big-desktop:max-w-[100px] rounded-[41px] text-center text-sm my-0 mx-2 font-semibold py-[10px] px-3 flex-wrap-[initial] cursor-pointer max-tablet:max-w-[20%] max-tablet:text-[1px]"
+              className="w-[100px] h-12 bg-[#ccc] flex items-center justify-center flex-col big-desktop:max-w-[100px] rounded-[41px] text-center text-sm my-0 mx-2 font-semibold py-[10px] px-3 flex-wrap-[initial] cursor-pointer max-tablet:max-w-[20%] max-tablet:text-[12px]"
             >
               All
             </Link>
             <Link
               href="#"
-              className="w-[100px] h-12 bg-[#ccc] flex items-center justify-center flex-col big-desktop:max-w-[100px] rounded-[41px] text-center text-sm my-0 mx-2 font-semibold py-[10px] px-3 flex-wrap-[initial] cursor-pointer max-tablet:max-w-[20%] max-tablet:text-[1px]"
+              className="w-[100px] h-12 bg-[#ccc] flex items-center justify-center flex-col big-desktop:max-w-[100px] rounded-[41px] text-center text-sm my-0 mx-2 font-semibold py-[10px] px-3 flex-wrap-[initial] cursor-pointer max-tablet:max-w-[20%] max-tablet:text-[12px]"
             >
               Gym
             </Link>
             <Link
               href="#"
-              className="w-[100px] h-12 bg-[#ccc] flex items-center justify-center flex-col big-desktop:max-w-[100px] rounded-[41px] text-center text-sm my-0 mx-2 font-semibold py-[10px] px-3 flex-wrap-[initial] cursor-pointer max-tablet:max-w-[20%] max-tablet:text-[1px]"
+              className="w-[100px] h-12 bg-[#ccc] flex items-center justify-center flex-col big-desktop:max-w-[100px] rounded-[41px] text-center text-sm my-0 mx-2 font-semibold py-[10px] px-3 flex-wrap-[initial] cursor-pointer max-tablet:max-w-[20%] max-tablet:text-[12px]"
             >
               Shirt
             </Link>
             <Link
               href="#"
               cursor-pointer
-              className="w-[100px] h-12 bg-[#ccc] flex items-center justify-center flex-col big-desktop:max-w-[100px] rounded-[41px] text-center text-sm my-0 mx-2 font-semibold py-[10px] px-3 flex-wrap-[initial] cursor-pointer max-tablet:max-w-[20%] max-tablet:text-[1px]"
+              className="w-[100px] h-12 bg-[#ccc] flex items-center justify-center flex-col big-desktop:max-w-[100px] rounded-[41px] text-center text-sm my-0 mx-2 font-semibold py-[10px] px-3 flex-wrap-[initial] cursor-pointer max-tablet:max-w-[20%] max-tablet:text-[12px]"
             >
               Pant
             </Link>
             <Link
               href="#"
-              className="w-[100px] h-12 bg-[#ccc] flex items-center justify-center flex-col big-desktop:max-w-[100px] rounded-[41px] text-center text-sm my-0 mx-2 font-semibold py-[10px] px-3 flex-wrap-[initial] cursor-pointer max-tablet:max-w-[20%] max-tablet:text-[1px]"
+              className="w-[100px] h-12 bg-[#ccc] flex items-center justify-center flex-col big-desktop:max-w-[100px] rounded-[41px] text-center text-sm my-0 mx-2 font-semibold py-[10px] px-3 flex-wrap-[initial] cursor-pointer max-tablet:max-w-[20%] max-tablet:text-[12px]"
             >
               Underwear
             </Link>
             <Link
               href="#"
-              className="w-[100px] h-12 bg-[#ccc] flex items-center justify-center flex-col big-desktop:max-w-[100px] rounded-[41px] text-center text-sm my-0 mx-2 font-semibold py-[10px] px-3 flex-wrap-[initial] cursor-pointer max-tablet:max-w-[20%] max-tablet:text-[1px]"
+              className="w-[100px] h-12 bg-[#ccc] flex items-center justify-center flex-col big-desktop:max-w-[100px] rounded-[41px] text-center text-sm my-0 mx-2 font-semibold py-[10px] px-3 flex-wrap-[initial] cursor-pointer max-tablet:max-w-[20%] max-tablet:text-[12px]"
             >
               CM24
             </Link>
             <Link
               href="#"
-              className="w-[100px] h-12 bg-[#ccc] flex items-center justify-center flex-col big-desktop:max-w-[100px] rounded-[41px] text-center text-sm my-0 mx-2 font-semibold py-[10px] px-3 flex-wrap-[initial] cursor-pointer max-tablet:max-w-[20%] max-tablet:text-[1px]"
+              className="w-[100px] h-12 bg-[#ccc] flex items-center justify-center flex-col big-desktop:max-w-[100px] rounded-[41px] text-center text-sm my-0 mx-2 font-semibold py-[10px] px-3 flex-wrap-[initial] cursor-pointer max-tablet:max-w-[20%] max-tablet:text-[12px]"
             >
               Running
             </Link>
             <Link
               href="#"
-              className="w-[100px] h-12 bg-[#ccc] flex items-center justify-center flex-col big-desktop:max-w-[100px] rounded-[41px] text-center text-sm my-0 mx-2 font-semibold py-[10px] px-3 flex-wrap-[initial] cursor-pointer max-tablet:max-w-[20%] max-tablet:text-[1px]"
+              className="w-[100px] h-12 bg-[#ccc] flex items-center justify-center flex-col big-desktop:max-w-[100px] rounded-[41px] text-center text-sm my-0 mx-2 font-semibold py-[10px] px-3 flex-wrap-[initial] cursor-pointer max-tablet:max-w-[20%] max-tablet:text-[12px]"
             >
               Accesories
             </Link>
@@ -108,15 +108,12 @@ const Products = () => {
         <div className="product-list">
           <div className="collection flex flex-row flex-wrap w-full">
             {data.map((product, productIndex) => (
-              <div
+              <Link
+                href={`/product/${product.id}`}
                 className="item-product max-mobile:w-1/2 w-1/4 p-2"
                 key={productIndex}
               >
-                <a
-                  key={product.id}
-                  className="product relative"
-                  href={`products/${product.id}`}
-                >
+                <div className="product relative">
                   {product.salePercentage !== 0 && (
                     <div className="sale-percentage absolute top-[10px] right-[10px] z-50 bg-red-600 h-11 w-11 flex justify-center items-center rounded-t-full rounded-bl-full text-base font-semibold text-white">
                       {product.salePercentage}
@@ -267,8 +264,8 @@ const Products = () => {
                       </ul>
                     ) : null
                   )}
-                </a>
-              </div>
+                </div>
+              </Link>
             ))}
           </div>
         </div>
