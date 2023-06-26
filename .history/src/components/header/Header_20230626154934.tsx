@@ -12,11 +12,9 @@ import {
 import Cart from "../cart/Cart";
 import Login from "@/app/Login/page";
 import Register from "@/app/register/page";
-import ForgotPassword from "@/app/forgorPassword/page";
 const Header = () => {
   const [showLoginModal, setShowLoginModal] = useState<Boolean>(false);
   const [showRegisterModal, setShowRegisterModal] = useState<Boolean>(false);
-  const [showForgotPassword, setShowForgotPassword] = useState<Boolean>(false);
   const [classNav, setClassNav] = useState<String>(
     "opacity-0 invisible -left-full"
   );
@@ -29,22 +27,10 @@ const Header = () => {
   };
   return (
     <>
-      {showLoginModal ? (
-        <Login
-          setShowLoginModal={setShowLoginModal}
-          setShowRegisterModal={setShowRegisterModal}
-          setShowForgotPassword={setShowForgotPassword}
-        />
-      ) : null}
       {showRegisterModal ? (
-        <Register
-          setShowRegisterModal={setShowRegisterModal}
-          setShowLoginModal={setShowLoginModal}
-        />
+        <Register setShowRegisterModal={setShowRegisterModal} />
       ) : null}
-      {showForgotPassword ? (
-        <ForgotPassword setShowForgotPassword={setShowForgotPassword} />
-      ) : null}
+      {showLoginModal ? <Login setShowLoginModal={setShowLoginModal} /> : null}
       <header className="text-black mb-4 fixed block top-0 left-0 right-0 bg-white w-full border-b border-gray-500 z-[99] px-[5%]">
         <div className="flex tablet: justify-between h-20 items-center mr-auto ml-auto max-w-full">
           <nav className="main-menu">

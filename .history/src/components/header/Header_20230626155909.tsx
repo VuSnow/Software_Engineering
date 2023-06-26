@@ -33,7 +33,6 @@ const Header = () => {
         <Login
           setShowLoginModal={setShowLoginModal}
           setShowRegisterModal={setShowRegisterModal}
-          setShowForgotPassword={setShowForgotPassword}
         />
       ) : null}
       {showRegisterModal ? (
@@ -42,9 +41,7 @@ const Header = () => {
           setShowLoginModal={setShowLoginModal}
         />
       ) : null}
-      {showForgotPassword ? (
-        <ForgotPassword setShowForgotPassword={setShowForgotPassword} />
-      ) : null}
+      {showForgotPassword ? <ForgotPassword /> : null}
       <header className="text-black mb-4 fixed block top-0 left-0 right-0 bg-white w-full border-b border-gray-500 z-[99] px-[5%]">
         <div className="flex tablet: justify-between h-20 items-center mr-auto ml-auto max-w-full">
           <nav className="main-menu">
