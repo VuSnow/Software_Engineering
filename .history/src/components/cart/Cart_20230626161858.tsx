@@ -51,11 +51,12 @@ const Cart = ({ setShowCart }: CartProps) => {
               </span>
             </div>
             <div className="button pt-5 pb-5 pr-[15px] pl-[15px]">
-              <Link href="/CartPayment" onClick={() => setShowCart(false)}>
+              <Link href="/CartPayment">
                 <button className="checkout-btn outline-0 border-0 h-[50px] w-full flex items-center justify-center cursor-pointer text-[20px] font-bold text-white bg-[#FF9000]">
                   View Cart
                 </button>
               </Link>
+
               <button className="checkout-btn outline-0 border border-solid border-black h-[50px] w-full flex items-center justify-center cursor-pointer text-[20px] font-bold text-black bg-white mt-2">
                 Log in
               </button>
