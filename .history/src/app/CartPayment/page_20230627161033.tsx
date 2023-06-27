@@ -315,7 +315,7 @@ const CartPayment = () => {
             <div className="cart-content">
               <div className="title text-3xl font-bold mt-8 mb-4">Giỏ hàng</div>
               <div className="cart-items">
-                <div className="cart-item flex relative flex-wrap p-0 mb-8">
+                <div className="cart-item flex relative flex-wrap p-0">
                   <div className="cart-item-remove cursor-pointer absolute top-0 right-0 z-[3]">
                     X
                   </div>
@@ -368,9 +368,9 @@ const CartPayment = () => {
                             </select>
                           </div>
                         </div>
-                        <div className="cart-item-action-bottom flex items-center justify-between text-right">
-                          <div className="quantity-box bg-white border border-solid border-black rounded-lg inline-flex items-center h-[25px] w-[77px]">
-                            <button className="decrease rounded-tl-lg rounded-bl-lg flex h-full w-[25px] items-center justify-center cursor-pointer text-xl leading-5 p-0 border-0 bg-[#fff0]">
+                        <div className="cart-item-action-bottom flex items-center justify-between">
+                          <div className="quantity-box">
+                            <button className="decrease">
                               <svg
                                 data-v-3e8bcd48=""
                                 width="16"
@@ -392,12 +392,8 @@ const CartPayment = () => {
                                 </g>
                               </svg>
                             </button>
-                            <input
-                              type="text"
-                              defaultValue={1}
-                              className="border-none py-[5px] m-0 h-full w-[25px] text-center text-[.8rem]"
-                            />
-                            <button className="increase rounded-tr-lg rounded-br-lg flex h-full w-[25px] items-center justify-center cursor-pointer text-xl leading-5 p-0 border-0 bg-[#fff0]">
+                            <input type="text" defaultValue={1} />
+                            <button className="increase">
                               <svg
                                 data-v-3e8bcd48=""
                                 width="16"
@@ -430,73 +426,47 @@ const CartPayment = () => {
                               </svg>
                             </button>
                           </div>
-                          <div className="prod-price flex flex-col text-right font-semibold">
+                          <div className="prod-price">
                             <span>178.000đ</span>
-                            <del className=" line-through text-[#ccc]">
-                              238.000đ
-                            </del>
+                            <del>238.000đ</del>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="cart-item flex relative flex-wrap p-0 mb-8">
+                <div className="cart-item flex relative flex-wrap p-0">
                   <div className="cart-item-remove cursor-pointer absolute top-0 right-0 z-[3]">
                     X
                   </div>
-                  <div className="cart-item-left flex-[1] flex">
-                    <div className="thumbnail-block relative w-[126px]">
-                      <Link href="/">
-                        <Image
-                          src={cartProduct1}
-                          alt=""
-                          className="rounded-[20px]"
-                        />
-                      </Link>
-                      <span className="quantity text-xs absolute top-[-5px] right-[-10px] h-5 w-5 text-white bg-black py-[2px] px-1 rounded-[10px] flex justify-center items-center">
-                        1
-                      </span>
-                    </div>
+                  <div className="cart-item-left">
+                    <Link href="/">
+                      <Image src={cartProduct1} alt="" />
+                    </Link>
+                    <span className="quantity">1</span>
                   </div>
-                  <div className="cart-item-right flex-[3] mr-6">
-                    <div className="cart-item-block flex flex-wrap h-full">
-                      <div className="cart-item-info w-full">
-                        <Link
-                          href="/"
-                          target="_blank"
-                          className="item-title font-bold text-[0.9rem] max-w-[85%] block"
-                        >
+                  <div className="cart-item-right">
+                    <div className="cart-item-block">
+                      <div className="cart-item-info">
+                        <Link href="/" target="_blank" className="item-title">
                           [Upto50%] Áo thun nam 100% Cotton Coolmate Basics
                         </Link>
-                        <div className="item-varient text-[0.8rem]">
-                          Xanh lá cây / XL
-                        </div>
+                        <div className="item-varient">Xanh lá cây / XL</div>
                       </div>
-                      <div className="cart-item-action flex flex-col w-full mt-auto flex-wrap">
-                        <div className="flex">
-                          <div className="color-select text-[.7rem] inline-block box-border relative mr-[5px]">
-                            <select
-                              name="color"
-                              id="color"
-                              className="inline-flex py-[3px] px-[6px] h-[30px] rounded-lg border border-solid border-black mb-[5px]"
-                            >
+                      <div className="cart-item-action">
+                        <div>
+                          <div className="color-select">
+                            <select name="color" id="color">
                               <option value="">Màu sắc</option>
                             </select>
-                          </div>
-                          <div className="size-select text-[.7rem] inline-block box-border relative">
-                            <select
-                              name="size"
-                              id="size"
-                              className="inline-flex py-[3px] px-[6px] h-[30px] rounded-lg border border-solid border-black mb-[5px]"
-                            >
+                            <select name="size" id="size">
                               <option value="">Size</option>
                             </select>
                           </div>
                         </div>
-                        <div className="cart-item-action-bottom flex items-center justify-between text-right">
-                          <div className="quantity-box bg-white border border-solid border-black rounded-lg inline-flex items-center h-[25px] w-[77px]">
-                            <button className="decrease rounded-tl-lg rounded-bl-lg flex h-full w-[25px] items-center justify-center cursor-pointer text-xl leading-5 p-0 border-0 bg-[#fff0]">
+                        <div className="cart-item-action-bottom">
+                          <div className="quantity-box">
+                            <button className="decrease">
                               <svg
                                 data-v-3e8bcd48=""
                                 width="16"
@@ -518,12 +488,8 @@ const CartPayment = () => {
                                 </g>
                               </svg>
                             </button>
-                            <input
-                              type="text"
-                              defaultValue={1}
-                              className="border-none py-[5px] m-0 h-full w-[25px] text-center text-[.8rem]"
-                            />
-                            <button className="increase rounded-tr-lg rounded-br-lg flex h-full w-[25px] items-center justify-center cursor-pointer text-xl leading-5 p-0 border-0 bg-[#fff0]">
+                            <input type="number" defaultValue={1} />
+                            <button className="increase">
                               <svg
                                 data-v-3e8bcd48=""
                                 width="16"
@@ -556,11 +522,9 @@ const CartPayment = () => {
                               </svg>
                             </button>
                           </div>
-                          <div className="prod-price flex flex-col text-right font-semibold">
+                          <div className="prod-price">
                             <span>178.000đ</span>
-                            <del className=" line-through text-[#ccc]">
-                              238.000đ
-                            </del>
+                            <del>238.000đ</del>
                           </div>
                         </div>
                       </div>
@@ -569,30 +533,29 @@ const CartPayment = () => {
                 </div>
               </div>
             </div>
-            <div className="divider my-4 mx-0 border-t border-solid border-[#d9d9d9] h-[1px]"></div>
             <div className="pricing-info">
-              <div className="pricing-info-item flex justify-between mb-4">
+              <div className="pricing-info-item">
                 <p>Tạm tính</p>
-                <p className="total text-right font-medium">
+                <p className="total">
                   <span>447.000đ</span>
                 </p>
               </div>
-              <div className="pricing-info-item flex justify-between mb-4">
+              <div className="pricing-info-item">
                 <p>Giảm giá</p>
-                <p className="discount text-right font-medium">
+                <p className="discount">
                   <span>0đ</span>
                 </p>
               </div>
-              <div className="pricing-info-item flex justify-between mb-4">
+              <div className="pricing-info-item">
                 <p>Phí giao hàng</p>
-                <p className="shipping text-right font-medium">
+                <p className="shipping">
                   <span>30.000đ</span>
                 </p>
               </div>
-              <div className="divider my-4 mx-0 border-t border-solid border-[#d9d9d9] h-[1px]"></div>
-              <div className="pricing-info-item flex justify-between">
+              <div className="divider"></div>
+              <div className="pricing-info-item">
                 <p>Tổng</p>
-                <p className="total text-3xl font-bold">
+                <p className="total">
                   <span>477.000đ</span>
                 </p>
               </div>

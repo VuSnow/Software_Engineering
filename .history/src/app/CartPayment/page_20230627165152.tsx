@@ -592,7 +592,7 @@ const CartPayment = () => {
               <div className="divider my-4 mx-0 border-t border-solid border-[#d9d9d9] h-[1px]"></div>
               <div className="pricing-info-item flex justify-between">
                 <p>Tổng</p>
-                <p className="total text-3xl font-bold">
+                <p className="total">
                   <span>477.000đ</span>
                 </p>
               </div>

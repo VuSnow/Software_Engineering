@@ -315,7 +315,7 @@ const CartPayment = () => {
             <div className="cart-content">
               <div className="title text-3xl font-bold mt-8 mb-4">Giỏ hàng</div>
               <div className="cart-items">
-                <div className="cart-item flex relative flex-wrap p-0 mb-8">
+                <div className="cart-item flex relative flex-wrap p-0">
                   <div className="cart-item-remove cursor-pointer absolute top-0 right-0 z-[3]">
                     X
                   </div>
@@ -441,7 +441,7 @@ const CartPayment = () => {
                     </div>
                   </div>
                 </div>
-                <div className="cart-item flex relative flex-wrap p-0 mb-8">
+                <div className="cart-item flex relative flex-wrap p-0">
                   <div className="cart-item-remove cursor-pointer absolute top-0 right-0 z-[3]">
                     X
                   </div>
@@ -569,30 +569,29 @@ const CartPayment = () => {
                 </div>
               </div>
             </div>
-            <div className="divider my-4 mx-0 border-t border-solid border-[#d9d9d9] h-[1px]"></div>
             <div className="pricing-info">
-              <div className="pricing-info-item flex justify-between mb-4">
+              <div className="pricing-info-item">
                 <p>Tạm tính</p>
-                <p className="total text-right font-medium">
+                <p className="total">
                   <span>447.000đ</span>
                 </p>
               </div>
-              <div className="pricing-info-item flex justify-between mb-4">
+              <div className="pricing-info-item">
                 <p>Giảm giá</p>
-                <p className="discount text-right font-medium">
+                <p className="discount">
                   <span>0đ</span>
                 </p>
               </div>
-              <div className="pricing-info-item flex justify-between mb-4">
+              <div className="pricing-info-item">
                 <p>Phí giao hàng</p>
-                <p className="shipping text-right font-medium">
+                <p className="shipping">
                   <span>30.000đ</span>
                 </p>
               </div>
-              <div className="divider my-4 mx-0 border-t border-solid border-[#d9d9d9] h-[1px]"></div>
-              <div className="pricing-info-item flex justify-between">
+              <div className="divider"></div>
+              <div className="pricing-info-item">
                 <p>Tổng</p>
-                <p className="total text-3xl font-bold">
+                <p className="total">
                   <span>477.000đ</span>
                 </p>
               </div>

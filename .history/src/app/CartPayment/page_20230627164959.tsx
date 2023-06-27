@@ -573,26 +573,26 @@ const CartPayment = () => {
             <div className="pricing-info">
               <div className="pricing-info-item flex justify-between mb-4">
                 <p>Tạm tính</p>
-                <p className="total text-right font-medium">
+                <p className="total">
                   <span>447.000đ</span>
                 </p>
               </div>
               <div className="pricing-info-item flex justify-between mb-4">
                 <p>Giảm giá</p>
-                <p className="discount text-right font-medium">
+                <p className="discount">
                   <span>0đ</span>
                 </p>
               </div>
               <div className="pricing-info-item flex justify-between mb-4">
                 <p>Phí giao hàng</p>
-                <p className="shipping text-right font-medium">
+                <p className="shipping">
                   <span>30.000đ</span>
                 </p>
               </div>
-              <div className="divider my-4 mx-0 border-t border-solid border-[#d9d9d9] h-[1px]"></div>
-              <div className="pricing-info-item flex justify-between">
+              <div className="divider"></div>
+              <div className="pricing-info-item">
                 <p>Tổng</p>
-                <p className="total text-3xl font-bold">
+                <p className="total">
                   <span>477.000đ</span>
                 </p>
               </div>
