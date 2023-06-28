@@ -115,7 +115,7 @@ const Products = () => {
                 <a
                   key={product.id}
                   className="product relative"
-                  href={`singleProduct/${product.id}`}
+                  href={`products/${product.id}`}
                 >
                   {product.salePercentage !== 0 && (
                     <div className="sale-percentage absolute top-[10px] right-[10px] z-50 bg-red-600 h-11 w-11 flex justify-center items-center rounded-t-full rounded-bl-full text-base font-semibold text-white">

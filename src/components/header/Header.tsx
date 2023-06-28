@@ -1,3 +1,4 @@
+'use client';
 import React, { useState, useEffect, useContext } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -148,12 +149,6 @@ const Header = () => {
               />
             </form>
             <div className="header-action flex">
-              <div
-                className="item person m-[10px] cursor-pointer"
-                onClick={() => setShowLoginModal(!showLoginModal)}
-              >
-                <FontAwesomeIcon icon={faUserTie} />
-              </div>
               <div
                 className="item cart m-[10px] cursor-pointer"
                 onClick={() => setShowCart(true)}
