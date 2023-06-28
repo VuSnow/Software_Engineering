@@ -153,12 +153,6 @@ const Header = () => {
                 <FontAwesomeIcon icon={faHeadphones} />
               </div>
               <div
-                className="item person m-[10px] cursor-pointer"
-                onClick={() => setShowLoginModal(!showLoginModal)}
-              >
-                <FontAwesomeIcon icon={faUserTie} />
-              </div>
-              <div
                 className="item cart m-[10px] cursor-pointer"
                 onClick={() => setShowCart(true)}
               >
