@@ -11,7 +11,9 @@ const Product = () => {
           <div className="single-product-wrapper">
             <div className="product-single-image">
               <div className="thumbnails">
-                <div className="big-image popup"></div>
+                <div className="big-image popup">
+                  <div className="image-container"></div>
+                </div>
               </div>
             </div>
             <div className="product-single-summary"></div>

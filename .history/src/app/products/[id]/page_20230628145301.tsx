@@ -1,6 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import Link from "next/link";
 
 const Product = () => {
   return (
@@ -8,14 +6,6 @@ const Product = () => {
       <section className="single-product-information">
         <div className="container-section">
           <div className="breadcrumb">Trang chủ/ Quần nam</div>
-          <div className="single-product-wrapper">
-            <div className="product-single-image">
-              <div className="thumbnails">
-                <div className="big-image popup"></div>
-              </div>
-            </div>
-            <div className="product-single-summary"></div>
-          </div>
         </div>
       </section>
       <section className="single-product-description"></section>
