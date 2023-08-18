@@ -16,11 +16,11 @@ import AppContext from "@/utils/Context";
 
 export default function Home() {
   return (
-    <>
+    <AppContext>
       <BannerSlide />
       <HomepageSearch />
       <Collection />
       <NewProducts />
-    </>
+    </AppContext>
   );
 }

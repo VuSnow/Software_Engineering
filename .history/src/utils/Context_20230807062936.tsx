@@ -8,6 +8,9 @@ const AppContext = ({ children }: any) => {
   const [showCart, setShowCart] = useState<Boolean>(false);
   const [showLoginForm, setShowLoginForm] = useState<Boolean>(false);
 
+  const openLoginModal = () => {
+    setShowLoginForm(true);
+  };
   return (
     <Context.Provider
       value={{
